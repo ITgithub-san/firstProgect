@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+	font:inherit
+}
+
+/*通用样式*/
+body{
+	background:#eeeeee;
+	font:16px 微软雅黑,黑体，verdana,arial,sans-serif;
+	color:#333333;
+	border-top: 40px solid #006f47;
+
+}
+
+/*标题*/
+caption{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #22111a;
+}
+/*表样式 */
+.main
+{
+	background-color:#337ab7;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:400px;
+	hight:1000px;
+	border-spacing:0px;
+	text-align:right
+	position: relative;
+	margin:30px auto;
+	padding: 3px;
+}
+
+
+tr{
+	height: 35px;
+	width: 40px;
+	
+}
+th{
+	background-color: #009999;
+	font-size: 2em;
+	height: 50px;
+	font-weight: 500;
+}
+
+
+td{
+	background-color: #337ab7;
+	font-size: 1.4em;
+	padding: 2px;
+}
+
+#name{
+	background-color: #e5f2ff;
+	font-size: 1.5em;
+	font-weight: 6px;
+	font-color:red;
+	background-color: #6698cc;
+}
+#rp{
+	color: red;
+	text-decoration: line-through;
+	font-style: italic;
+}
+#bp{
+	color: red;
+	font-style: italic;
+}
+
+
+
+input[type="submit"] {
+	background-color: #ccebff;
+	margin-right:30%;
+	width:120px;
+	height:40px;
+	font-size:22px;
+	border-radius: 6px;
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+input:hover{
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24),0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+.model{
+	background-color:#7979d3;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:400px;
+	hight:1000px;
+	border-spacing:0px;
+	text-align:right;
+	position: relative;
+	margin:3px auto;
+}
+
+.model #text{
+	text-align:left;
+	padding-left: 10px;
+}
+
+.title{
+	text-align: left;
+	font-size: 1.2em
+}
+
+.main td{
+	margin-left: 10px;
+}
+.main #col{
+	width: 20px;
+}

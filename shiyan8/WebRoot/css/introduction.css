@@ -1,0 +1,122 @@
+*{
+	padding:0;
+	margin:0;
+	font:inherit
+}
+
+/*通用样式*/
+body{
+	background-color: #ffffff;
+	font:14px 微软雅黑,黑体，verdana,arial,sans-serif;
+	color:#333333;
+	border-top: 8px solid #006f47;//上边框
+}
+
+ul{
+	list-style-type: none;
+}
+/*外层盒子*/
+.wrap{
+    width: 1200px;
+    margin: auto;
+}
+
+/*头部*/
+.top-header{
+    margin: 10px 0;
+    height: 350px;
+
+}
+
+/*欢迎*/
+.starbucks-welcome{
+	width: 100%;
+	
+	
+}
+
+/*导航*/
+.top-menu{
+	float:left;
+	margin-top: 10px;
+	margin-left: 45%;
+}
+.top-menu ul li{
+	display: inline;
+	background-color: #efe5d0;
+	padding:10px 10px;
+	margin: 5px 5px;
+	
+}
+.top-menu ul li a:LINK, .top-menu ul li a:VISITED{
+	color: #006f47;
+	text-decoration:none;
+	font-weight: bols;
+	font-size: 20px;
+}
+/*侧边栏*/
+.left-aside{
+	background: #efe5d0 url(images/background.gif) top left;
+    float: left;
+    width: 350px;
+}
+.left-aside h3{
+	color:#006f47;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	margin-top: 5px;	
+}
+
+/*图片展示*/
+.rooms figure{
+	float: left;	
+}
+
+.rooms .figure-r{
+	margin-left: 20px;
+}
+
+.rooms figure img{
+	width: 150px;
+	height: 170px;
+	border: 2px solid #ffffff;
+}
+/*主内容区域*/
+main{
+    background: #efe5d0 url(images/background.gif) top left;
+    padding: 20px;
+    margin-left: 360px;
+}
+
+main article{
+	border-bottom: 1px dashed #c8b99c;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	 
+}
+main article h3{
+	color:#006f47;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+main article time{
+	color:#675c47;
+	
+}
+
+main article p{
+	line-height:1.5em;
+	text-indent: 30px;
+	margin: 0 10px;
+}
+/*页脚*/
+.page-footer{
+    clear: both;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #675c47;
+    color: #efe5d0;
+    text-align: center;
+    font-size: 90%;
+}
